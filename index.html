@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>My Todo App</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="header">
+            <img src="./assets/img/Vancouver_granvilleIsland.jpg" alt="">
+            <p id="date-display"></p>
+            <p id="time-display"></p>
+        </div>
+        <div id="todo-content">
+            <ul id="todo-list">
+                <li>
+                    <label class="radio-button">
+                        <input type="checkbox" checked="checked">
+                        <span class="custom-check"></span>
+                    </label>
+                    <span>content</span>
+                    <button id="remove-button">🗑
+                    </button>
+                </li>
+            </ul>
+        </div>
+        <div id="user-input">
+            <input type="text" id="new-task" />
+            <button id="add-button">+</button>
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+</html>
